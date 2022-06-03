@@ -19,14 +19,16 @@
 <body>
     <form>
         <div class="input-container">
-            <input type="text" name="lastName" value="Emerson">
+            <label for="lastNameId">Last Name</label>
+            <input id="lastNameId" type="text" name="lastName" value="Emerson" readonly>
         </div>
         <div class="input-container">
-            <input type="number" name="age" value="17">
+            <label for="AgeId">Age</label>
+            <input id="AgeId" type="number" name="age" value="17" min="3" max="10" required>
         </div>
         <div class="input-container">
             <label>
-                <input type="checkbox" name="agree">
+                <input type="checkbox" name="agree" disabled>
                 Accept terms and conditions.
             </label>
         </div>
@@ -36,7 +38,7 @@
             <label><input type="radio" name="choose-gender-radio"> Secret</label>
         </div>
         <div class="input-container">
-            <textarea name="description" placeholder="Write description..."></textarea>
+            <textarea name="description" placeholder="Write description..." maxlength="10"></textarea>
         </div>
         <div class="input-container">
             <button type="submit">Submit
