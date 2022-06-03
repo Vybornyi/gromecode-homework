@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <title>Document</title>
+    <style>
+        .input-container {
+            margin: 16px;
+        }
+        .choose-gender label{
+            display: block;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <div class="input-container">
+            <input type="text" name="lastName" value="Emerson">
+        </div>
+        <div class="input-container">
+            <input type="number" name="age" value="17">
+        </div>
+        <div class="input-container">
+            <label>
+                <input type="checkbox">
+                Accept terms and conditions.
+            </label>            
+        </div>
+        <div class="choose-gender input-container">
+            <label><input type="radio" name="choose-gender-radio">Male</label>
+            <label><input type="radio" name="choose-gender-radio">Female</label>
+            <label><input type="radio" name="choose-gender-radio">Secret</label>
+        </div>
+        <div class="input-container">
+            <textarea name="description" placeholder="Write description"></textarea>
+        </div>
+        <div class="input-container">
+            <button type="submit" >Submit
+
+            </button>
+        </div>
+        
+    </form>
+</body>
+
+</html>
