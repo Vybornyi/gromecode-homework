@@ -1,3 +1,2 @@
 no-var
-Unexpected var, use let or const instead
-Expected '===' and instead saw '=='
+eqeqeq
