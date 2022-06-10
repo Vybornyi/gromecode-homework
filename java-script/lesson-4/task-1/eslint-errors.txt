@@ -1,0 +1,9 @@
+no-var
+Return statement should not contain assignment
+Replace `····}␍` with `··}`
+Replace `········console.log(i);␍` with `····console.log(i);`
+Replace `····for·(let·i·=·1;·i·<·10;·i++)·{␍` with `··for·(let·i·=·1;·i·<·10;·i++)·{`
+Replace `····}␍` with `··}`
+Replace `··if·(a·==·1)·{␍` with `if·(a·==·1)·{`
+Expected '===' and instead saw '=='.Expected '===' and instead saw '=='.
+Unexpected var, use let or const instead.
