@@ -1,15 +1,11 @@
-function run() {
-    var a = 0;
+/* eslint-disable prettier/prettier */
 
-    if (a == 1) {
-        return c;
-    }
-
-    for (let i = 1; i < 10; i++) {
-        console.log(i);
-    }
-
-    return (d = a);
+function findDivCount(a, b, n) {
+    let count = 0;
+    for (let i = a; i <= b; i += 1) {
+        if (i % n === 0) {
+            count += 1;
+        }
+    } return count;
 }
-
-run();
+console.log(findDivCount(100, 200, 5));
