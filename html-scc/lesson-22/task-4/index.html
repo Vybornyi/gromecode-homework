@@ -50,6 +50,7 @@
            .navigation {
                width: 20%;
                padding: 0.5em;
+               display: none;
            }
 
            .nav-list-item {
@@ -76,6 +77,15 @@
                white-space: nowrap;
                
 
+           }
+           @media screen and (min-width: 600px){
+            .navigation {
+                        display: block
+            }
+            .icon{
+                display: none;
+            }
+            
            }
        </style>
 
