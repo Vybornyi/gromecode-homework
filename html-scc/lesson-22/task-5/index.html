@@ -15,8 +15,7 @@
             font-family: Verdana;
             color: #555;
             font-size: 16px;
-            ;
-
+            
         }
 
         body {
@@ -26,14 +25,12 @@
         }
 
         header {
-
             background: linear-gradient(60deg, red, orange);
             text-align: center;
             color: #fff;
         }
 
         .main {
-            
             flex: 1 0 auto;
 
         }
@@ -51,7 +48,7 @@
             padding: 0.5em;
         }
 
-        
+
         .nav-list {
             padding: 0;
         }
@@ -63,7 +60,6 @@
             line-height: 2em;
             color: white;
             margin-bottom: 0.5em;
-            
         }
 
         .nav-list-link {
@@ -79,13 +75,10 @@
 
 
         .section {
-            
             font-size: 1.25em;
         }
 
-        .news {
-            
-        }
+        
 
         .units-list {
             line-height: 1.75em;
@@ -107,19 +100,40 @@
             max-width: 100%;
             box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
         }
+
         @media screen and (min-width: 600px) {
-                .main{
-                    display: flex;
-                    flex-wrap: wrap;
-                    
-                }
-                .navigation{
-                    width: 20%;
-                }
-                .section{
-                    width: 80%;
-                }
-            
+            .main {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .navigation {
+                width: 20%;
+            }
+
+            .section {
+                width: 80%;
+            }
+
+        }
+
+        @media screen and (min-width: 1200px) {
+            .main {
+                display: flex;
+            }
+
+            .navigation {
+                width: 20%;
+            }
+
+            .section {
+                width: 60%;
+            }
+
+            .news {
+                width: 20%;
+            }
+
         }
     </style>
 </head>
