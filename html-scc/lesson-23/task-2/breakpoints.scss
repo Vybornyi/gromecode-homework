@@ -1,0 +1,24 @@
+$md: 600px;
+$ld: 900px;
+$eld: 1200px;
+
+@mixin for-medium-up {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+@mixin for-large-up {
+  @media screen and (min-width: $ld) {
+    @content;
+  }
+}
+@mixin for-extra-large-up {
+  @media screen and (min-width: $eld) {
+    @content;
+  }
+}
+@mixin for-portrait-orientation {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}
