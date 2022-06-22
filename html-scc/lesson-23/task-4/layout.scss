@@ -1,0 +1,14 @@
+$sd: 600px;
+$md: 900px;
+$min-height: 200px;
+
+@mixin for-tablet-display {
+  @media screen and (min-width: $sd) {
+    @content;
+  }
+}
+@mixin for-monitors-display {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
